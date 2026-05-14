@@ -398,7 +398,7 @@ const cardData = {
       `<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/nike_final.mp4" type="video/mp4">
+            <source src="./Prototype/nike_final.mp4" type="video/mp4">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Nike Final</div>
@@ -407,7 +407,7 @@ const cardData = {
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/redbull-final.mp4" type="video/mp4">
+            <source src="./Prototype/redbull-final.mp4" type="video/mp4">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Red Bull Final</div>
@@ -416,7 +416,7 @@ const cardData = {
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/FRESH_Lemonade Final.mp4" type="video/mp4">
+            <source src="./Prototype/FRESH_Lemonade%20Final.mp4" type="video/mp4">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Fresh Lemonade</div>
@@ -425,7 +425,7 @@ const cardData = {
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/Mclaren.mov" type="video/mp4">
+            <source src="./Prototype/Mclaren.mov" type="video/quicktime">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">McLaren Design</div>
@@ -434,7 +434,7 @@ const cardData = {
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/Spotlight effect.MP4" type="video/mp4">
+            <source src="./Prototype/Spotlight%20effect.MP4" type="video/mp4">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Spotlight Effect</div>
@@ -442,7 +442,7 @@ const cardData = {
           </div>
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
-          <img style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" src="./prototype/IMG_1890.jpg.jpeg" alt="Project Image">
+          <img style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" src="./Prototype/IMG_1890.jpg.jpeg" alt="Project Image">
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Design Mockup</div>
             <div style="font-size: 12px; color: #7c7c7c; margin-top: 4px;">Visual Design</div>
@@ -450,7 +450,7 @@ const cardData = {
         </div>
         <div style="border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
           <video style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #e0e0e0;" controls>
-            <source src="./prototype/Valorant.mov" type="video/mp4">
+            <source src="./Prototype/Valorant.mov" type="video/quicktime">
           </video>
           <div style="padding: 12px; background: #fff; border: 1px solid #f0f0f0; border-top: none; border-radius: 0 0 16px 16px;">
             <div style="font-weight: 600; color: #121212; font-size: 14px;">Valorant Design</div>
