@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="nav">
+        <h3>Danish</h3>
+        <div id="nav-right">
+            <a href="https://www.instagram.com/the_figma.guy?igsh=Y2pua2draHprb2Iz&utm_source=qr" target="_blank" title="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                </svg>
+            </a>
+            <a href="https://growthforgex-website.vercel.app" target="_blank" title="Website">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M2 12h20"></path>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+            </a>
+            <a href="mailto:danish.s.qureshi@gmail.com" title="Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+            </a>
+            <button id="date-btn">APRIL,2023</button>
+        </div>
+    </div>
+    <div id="main">
+        <div id="page">
+            <div id="loop">
+                <h1>UI/UX Designer</h1>
+                <h1>UI/UX Designer</h1>
+                <h1>UI/UX Designer</h1>
+            </div>
+            <h3>Designing digital experiences that actually work.<br>I help businesses turn ideas into clean, high performing websites and products.<br><br>Scroll to explore ↓</h3>
+            <canvas></canvas>
+        </div>
+        <div id="page1">
+            <div id="right-text">
+                <h3>About Me</h3>
+            </div>
+            <div id="left-text">
+                <h1>Designing with<br>clarity and purpose</h1>
+            </div>
+            <div id="info-text">
+                <p>I’m a UI/UX designer focused on creating clean, user-friendly digital experiences.<br>
+                I work on turning ideas into structured, functional, and visually strong products.<br><br>
+                My approach is simple, understand the problem, design with intention, and build solutions that actually work.</p>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="text1">
+                <h3>Work Experience</h3>
+                <h1>Built through<br>doing, not just<br>learning</h1>
+            </div>
+            <div id="page2-right">
+                <div class="side-section" data-card="projects" onclick="openPopup('projects')">
+                    <h3>My Projects</h3>
+                </div>
+                <div class="side-section" data-card="experience" onclick="openPopup('experience')">
+                    <h3>Work Experience</h3>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div id="text3">
+                <h3>LET'S CONNECT</h3>
+                <h1>THANKS FOR
+<br>
+SCROLLING.
+<br>
+NOW LET'S BUILD
+<br>
+SOMETHING ICONIC.
+                </h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="popup-overlay" class="hidden">
+        <div class="popup-card">
+            <button id="popup-close" aria-label="Close popup">×</button>
+            <h2 id="popup-title"></h2>
+            <p id="popup-content"></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
